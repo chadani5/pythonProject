@@ -1,10 +1,22 @@
-def avg(num1,num2,num3):
-    return(num1+num2+num3)/3.0
-num1=10
-num2=20
-num3=30
-average=(num1,num1,num3)
-print("the average of",num1,",",num2,",","and",num3,"is",average)
+def improved_average():
+    a = int(input("enter a first number:"))
+    b = int(input("enter a second number:"))
+    c = int(input("enter a third number:"))
+    d = int(input("enter a fourth number:"))
+    e = int(input("enter a fifth number:"))
+    array = [a, b, c, d, e]
+    mean = (a+b+c+d+e)/5
+    median = array[2]
+    mode = 3*median-2*mean
+    print("mode of given number:", mode)
+    print("median of given number:", median)
+    print("mean of given number", mean)
+
+
+
+
+
+
 
 
 
